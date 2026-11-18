@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Vaccine</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body class="view-body">
+
+<h2>Vaccine Records</h2>
+
+{% for vaccine in vaccines %}
+
+<div class="card">
+
+    <h3>{{ vaccine.vaccine_name }}</h3>
+
+    <p>
+        Date Taken:
+        {{ vaccine.vaccine_date }}
+    </p>
+
+<a href="/delete_vaccine/{{ vaccine.id }}"
+   class="bin-btn">
+
+   🗑
+
+</a>
+
+</div>
+
+{% endfor %}
+
+<a href="/home" class="back-btn">
+    Back
+</a>
+
+</body>
+</html>

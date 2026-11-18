@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body class="home-body">
+
+<div class="home-container">
+
+    <h1>Welcome {{ username }}</h1>
+
+    <a href="/add_vaccine" class="home-btn">
+        Add Vaccine
+    </a>
+
+    <a href="/view_vaccine" class="home-btn">
+        View Vaccine
+    </a>
+
+    <a href="/logout" class="logout-btn">
+        Logout
+    </a>
+
+</div>
+
+</body>
+</html>

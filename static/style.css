@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* LOGIN PAGE */
+
+.login-body {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background: white;
+    padding: 40px;
+    width: 320px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* ADD VACCINE PAGE */
+
+.add-body {
+    background: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+}
+
+/* COMMON INPUTS */
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+/* HOME PAGE */
+
+.home-body,
+.index-body {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container,
+.index-container {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+.home-btn,
+.logout-btn {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.home-btn {
+    background: #007bff;
+}
+
+.home-btn:hover {
+    background: #0056b3;
+}
+
+.logout-btn {
+    background: #dc3545;
+}
+
+.logout-btn:hover {
+    background: #b52a37;
+}
+/* VIEW VACCINE PAGE */
+
+.view-body {
+    background: #eef2f7;
+    padding: 40px;
+    min-height: 100vh;
+}
+
+.view-body h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: white;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+}
+
+.card h3 {
+    margin: 0;
+    color: #007bff;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.back-btn {
+    display: block;
+    width: 120px;
+    margin: 30px auto;
+    padding: 12px;
+    text-align: center;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.back-btn:hover {
+    background: #1f7a33;
+}
+.bin-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 14px;
+    background: #dc3545;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.bin-btn:hover {
+    background: #b52a37;
+    transform: scale(1.1);
+}
